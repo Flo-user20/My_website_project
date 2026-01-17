@@ -420,7 +420,7 @@ text-decoration: none;
 
 /* CALL TO ACTION */
 .CTA{
-  background-image: url("../Images/Newsletter-BG.jpg");
+  background-image: url("Newsletter-BG.jpg");
   height: 200px;
   width: 100%;
   background-size: cover;
@@ -610,7 +610,7 @@ text-decoration: none;
 
 /* Banner-store location */
 .Banner{
-  background-image: url("../Images/About.jpg");
+  background-image: url("About.jpg");
   background-position: bottom;
   background-size: cover;
   height: 200px;
@@ -1074,7 +1074,7 @@ text-decoration: none;
 
   /* Banner-store location?\ */
   .Banner{
-    background-image: url("../Images/About.jpg");
+    background-image: url("About.jpg");
     background-position: bottom;
     background-size: cover;
     height: 300px;
