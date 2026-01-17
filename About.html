@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page| Millenial Alley</title>
+
+    <!--slick-->
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <!-- 2)IMPORTANT!!-JQUERY MUST ALWAYS BE IN FOR EXTENSION TO WORK! -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!--TITLE-font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/Styles.css">
+
+
+    <!--font awesome icon link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+
+  <!-- <div id="loaderScreen" class="loader">
+  Loader (will disappear in 3s)
+  </div> -->
+  <div class="loader">
+       <div class="progress-bar"></div>
+     </div>
+
+    <header>
+
+      <!-- Parent of burger + navigation menu -->
+      <div class="NavP">
+  <!-- Customer services -->
+  <div class="topIcons">
+    <!-- user icon -->
+    <div class="User">
+        <a href="User.html"><i class="fa fa-user"></i></a>
+    </div>
+
+    <!-- Searchbar -->
+    <div class="Search">
+      <a href="#"><i class="fa fa-search"></i></a>
+  <input type="text" placeholder="Search"value="">
+    </div>
+    <!-- shopping cart -->
+    <div class="Cart">
+      <a href="Cart.html"><i class="fa fa-shopping-cart"></i></a>
+
+    </div>
+  </div>
+
+
+          <!-- logo -->
+          <div class="Logo">
+        <a href="Index.html"><img src="Images/Millenial.png" alt=""></a>
+          </div>
+  <hr>
+          <!-- Hamburger -->
+          <div class="mobile-menu">
+
+            <div class="Search">
+              <a href="#"><i class="fa fa-search"></i></a>
+            </div>
+              <!-- user icon -->
+            <div class="User">
+                <a href="User.html"><i class="fa fa-user"></i></a>
+            </div>
+
+            <!-- shopping cart -->
+            <div class="Cart">
+              <a href="Cart.html"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="Hamburger">
+              <a onclick="toggleMenu()" href="#">
+
+            <div class="container" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div></a>
+          </div>
+         </div>
+          <nav>
+          <!-- Javascript for toggling menu -->
+          <div id="TopNav" class="Menu">
+            <a href="Index.html">Home</a>
+            <a class="active-line" href="#"><span style="color:#EEC302;">About</span></a>
+            <a href="Contact.html">Contact</a>
+           <a href="Sale.html">Sale</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+
+<!--Slick-->
+<div class="About-images">
+  <div class="single-item">
+    <div class="child">
+      <img src="Images/About.jpg" alt="">
+    </div>
+
+    <div class="child">
+      <img src="Images/About2.jpg" alt="">
+    </div>
+  </div>
+</div>
+<div class="Text-portion">
+  <!-- Our Story title -->
+  <div class="Page-header">
+     <h2>Our Story</h2>
+  </div>
+  <div class="Explain">
+
+<p>The Millenial Alley store project started in 2018 with a dream to bridge this gap in the streetwear scene. There wasn’t really a proper store around that “speaks” to the demographic; everything before this was via online platforms and ‘fly-by-night’ stores. Well Bred hopes to be able to introduce, share and grow the scene here and around the region.
+
+Our  stores have, in this short span of time garnered a strong cult following from Hypebeast KOL (Key Opinion Leader) types to discerning taste-makers. We aim to bring a vibrant 360-shopping experience for the hypebeast and trendies. New-wave brands like Acme De La Vie (ADLV), FOG Essentials, #FR2 Fxxking Rabbits, Pleasures, Chinatown Market CTM, Poshbrain etc line up side by side with Classics like Champion, RipNDip, Carhartt WIP and the likes.
+
+Whether it is our physical shops or online store, we hope to play the game right. Millenial Alley hopes to be that right store that keeps every demographic happy. We may work WITHIN this culture, but end of the day, we also want to work FOR this culture. Peace out.</p>
+
+</div>
+
+</div>
+<div class="Connect">
+  <div class="Block">
+  </div>
+
+  <div class="Social-Shoutout">
+  <p>CONNECT WITH US THROUGH OUR INSTAGRAM TO GET THE LATEST UPDATES ON THE LATEST DROPS AND RESTOCKS FOR BOTH IN STORES AND ONLINE!</p>
+  </div>
+</div>
+
+<!-- Back to top button -->
+<a id="button"></a>
+
+<!-- FOOTER -->
+
+<hr class="foot-line">
+
+<footer>
+  <!-- parent of everything in footer -->
+<div class="Footer-all">
+  <!-- About portion -->
+  <div class="About">
+    <div class="Abt-header">
+      <h3>About</h3>
+    </div>
+    <a href="About.html"><p>About Us</p></a>
+    <a href="Contact.html"><p>Careers</p></a>
+    <a href="Contact.html"><p>Contact Us</p></a>
+  </div>
+<!-- Client logos portion in footer -->
+<div class="Brand-P">
+  <div class="Brands-header">
+    <h3>Brands</h3>
+  </div>
+
+  <div class="Brands">
+<div class="icon">
+  <img src="Images/ADLV.png" alt="">
+</div>
+
+<div class="icon">
+  <img src="Images/Essentials.png" alt="">
+</div>
+
+
+<div class="icon">
+  <img src="Images/drew-house.png" alt="">
+</div>
+
+<div class="icon">
+  <img src="Images/Poshbrain.png" alt="">
+</div>
+  </div>
+
+  </div>
+
+
+
+
+</div>
+
+<!-- copyright -->
+<div class="credit">
+  <p>Copyright &copy 2021 Millenial Alley Shop. All rights reserved</p>
+</div>
+
+
+
+</footer>
+<!-- /FOOTER -->
+<!--SLICK-script-->
+<script src="JS/slick.min.js"></script>
+
+<script>
+  // AOS.init();
+
+//   $('.single-item').slick()
+//
+//   $('.single-item').slick({
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   autoplay: true,
+//   autoplaySpeed: 2000,
+// })
+
+
+$('.single-item').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000
+
+});
+</script>
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript">
+
+    //  function finished() {
+    //   //Wait 3000ms before calling the showpage()
+    //     myVar = setTimeout(showPage, 2000);
+    //    document.getElementById('body').style.overflow="hidden";
+    // }
+
+
+     function showPage() {
+      //Hide the loader page
+       document.getElementById('loaderScreen').style.display ="none";
+       document.getElementById('body').style.overflow ="visible";
+    }
+
+
+
+      function toggleMenu() {
+       if (document.getElementById('TopNav').className== "Menu") {
+         document.getElementById('TopNav').className = "Menu show";
+       }
+       else {
+         document.getElementById('TopNav').className= "Menu";
+       }
+     }
+
+
+
+     var btn = $('#button');
+
+     $(window).scroll(function() {
+       if ($(window).scrollTop() > 300) {
+         btn.addClass('show');
+       } else {
+         btn.removeClass('show');
+       }
+     });
+
+     btn.on('click', function(e) {
+       e.preventDefault();
+       $('html, body').animate({scrollTop:0}, '300');
+     });
+
+     function myFunction(x) {
+       x.classList.toggle("change");
+     }
+
+    </script>
+
+
+
+  </body>
+</html>
