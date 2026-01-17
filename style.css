@@ -241,7 +241,7 @@ text-decoration: none;
 /*****Hero Background*******/
 
 .Hero{
-  background-image: url('../banner_hero.jpg');
+  background-image: url('banner_hero.jpg');
   /* The image used */
 
   /* Set a specific height */
